@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+  <!-- insert your AIML categories here -->
+  
+  <!-- Name of bot --> 
+  <category><pattern>What is your name</pattern>
+  <template><random>
+      <li>My name is <bot name="bot-name"/>.</li>
+      <li>I am <bot name="bot-name"/>.</li>
+  </random></template>
+  </category>
+  
+  <category>
+    <pattern> ^ tell ^ your name ^</pattern>
+      <template><random>
+      <li>My name is <bot name="bot-name"/>.</li>
+      <li>I am <bot name="bot-name"/>.</li>
+      </random></template>
+  </category>
+  
+  
+  <!-- Age of bot --> 
+  <category>
+      <pattern>How old are you</pattern>
+      <template><random>
+      <li>I was born on the 1st of June 2016. <br/> How old am I? ;) </li>
+      <li>I am <bot name="bot-age"/>.</li>
+      </random></template>
+  </category>
+  
+    <category>
+      <pattern>^ your age</pattern>
+      <template><random>
+      <li>I was born on the 1st of June 2016. <br/> How old am I? ;) </li>
+      <li>I am <bot name="bot-age"/>.</li>
+      </random></template>
+  </category>
+ 
+  
+  <!-- Developer/creator of bot -->
+  <category>
+      <pattern>Who is your creator</pattern>
+      <template>My creator is called Shiki.</template>
+  </category>
+  
+  <category>
+      <pattern> * developed you</pattern>
+      <template> Shiki is the person who developed me. </template>
+  </category>
+  
+</aiml>

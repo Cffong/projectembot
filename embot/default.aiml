@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+  <!-- insert your AIML categories here -->
+
+  
+  <category>  
+    <pattern>Can I talk to you</pattern>
+    <template>Yes, of course. <br/> I am here to talk to you.</template>
+  </category>
+  
+  <category>
+      <pattern>What is my name</pattern>
+      <template>Your name is <get name="name"/></template>
+  </category>
+  
+  <category>
+      <pattern>I am  * years old</pattern>
+      <template><set name="age"><star/></set></template>
+  </category>
+  
+   <category>
+      <pattern>How old am I</pattern>
+      <template>You are <get name="age"/> years old.</template>
+  </category>
+  
+  
+</aiml>
+
